@@ -6,8 +6,8 @@ NUM_EPOCHS = 10
 BATCH_SIZE = 16
 LEARNING_RATE = 0.001
 
-train_dir = "/content/drive/MyDrive/Linnaeus 5 256X256/train"
-test_dir = "/content/drive/MyDrive/Linnaeus 5 256X256/test"
+train_dir = r"\Users\sumed\Desktop\Projects\Untitled Folder 1\Linnaeus 5 256X256\Linnaeus 5 256X256\train"
+test_dir = r"\Users\sumed\Desktop\Projects\Untitled Folder 1\Linnaeus 5 256X256\Linnaeus 5 256X256\test"
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
